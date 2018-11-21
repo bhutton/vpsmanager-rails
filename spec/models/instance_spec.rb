@@ -9,4 +9,9 @@ RSpec.describe Instance, type: :model do
     action = Instance.new(name: nil)
     expect(action).to_not be_valid
   end
+
+  it "is valid without a description" do
+    action = Instance.new(name: anything, description: nil)
+    expect(action).to be_valid
+  end
 end
