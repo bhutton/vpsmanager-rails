@@ -3,10 +3,11 @@ require 'spec_helper'
 describe 'instances/index.html.erb' do
 
   it 'should list instances' do
-    assign(:instances, Instance.create(name: 'Test'))
+    assign(:instances, [Instance.new(name: 'Test1'), Instance.new(name: 'Test2')])
     render
 
     rendered.should match('Instances')
-    rendered.should match('Test')
+    rendered.should match('Test1')
+    rendered.should match('Test2')
   end
 end

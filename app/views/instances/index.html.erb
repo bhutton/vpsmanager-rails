@@ -2,4 +2,6 @@
 
 <h1>Instances</h1>
 
-Instance = <%= @instances.name %>
+<% @instances.each do |instance| %>
+  <%= instance.name %>
+<% end %>
