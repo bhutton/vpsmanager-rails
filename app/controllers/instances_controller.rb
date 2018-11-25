@@ -1,8 +1,9 @@
 class InstancesController < ApplicationController
 
   # GET /instances
+  # GET /instances.json
   def index
-
+    @instances = Instance.all
   end
 
   def new

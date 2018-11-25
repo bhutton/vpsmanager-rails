@@ -14,4 +14,8 @@ RSpec.describe Instance, type: :model do
     action = Instance.new(name: anything, description: nil)
     expect(action).to be_valid
   end
+
+  it "can fill in form" do
+
+  end
 end
