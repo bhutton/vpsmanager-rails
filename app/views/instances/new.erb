@@ -1,14 +1,7 @@
 <h1>Create new instance</h1>
-<form name="instance" , method="POST">
-  <div class="form-group">
-  <p>
-    <strong>Name</strong>
-    <input type="text" name="name">
-  </p>
-  <p>
-    <strong>Description</strong>
-    <input type="text" name="description">
-  </p>
-  <input type="submit" value="Submit">
-  </div>
-</form>
+  <%= bootstrap_form_for @instances, url: "/", layout: :horizontal do |form| %>
+    <%= form.text_field :name, label: "Name" %>
+    <%= form.text_field :description, label: "Description" %>
+
+    <%= form.submit %>
+  <% end %>

@@ -1,5 +1,4 @@
 class InstancesController < ApplicationController
-
   # GET /instances
   # GET /instances.json
   def index
@@ -7,7 +6,7 @@ class InstancesController < ApplicationController
   end
 
   def new
-
+    @instances = Instance.new
   end
 
   # GET /instances/1
