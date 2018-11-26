@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef7456bc-d72f-4250-9076-da9b3ab9fb45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spec/views/instances_new.html.erb_spec.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/instances/new.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/instances/new.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/models/instance_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/instance_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/spec_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/views/instances_new.html.erb_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/views/instances_new.html.erb_spec.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -22,12 +20,12 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/vpsmanager_rails@test__vpsmanager_rails.rcov" NAME="test: vpsmanager-rails Coverage Results" MODIFIED="1542627823041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="vpsmanager-rails" />
-    <SUITE FILE_PATH="coverage/vpsmanager_rails@spec__vpsmanager_rails.rcov" NAME="spec: vpsmanager-rails Coverage Results" MODIFIED="1543233288340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="vpsmanager-rails" />
+    <SUITE FILE_PATH="coverage/vpsmanager_rails@spec__vpsmanager_rails.rcov" NAME="spec: vpsmanager-rails Coverage Results" MODIFIED="1543234005055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="vpsmanager-rails" />
     <SUITE FILE_PATH="coverage/vpsmanager_rails@All_tests_in_spec__vpsmanager_rails.rcov" NAME="All tests in spec: vpsmanager-rails Coverage Results" MODIFIED="1542628144833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="vpsmanager-rails" />
-    <SUITE FILE_PATH="coverage/vpsmanager_rails@Run_test__instances_spec___vpsmanager_rails.rcov" NAME="Run test 'instances_spec': vpsmanager-rails Coverage Results" MODIFIED="1542627817319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="vpsmanager-rails" />
+    <SUITE FILE_PATH="coverage/vpsmanager_rails@Run_test__instances_spec___vpsmanager_rails.rcov" NAME="Run test 'instances_spec': vpsmanager-rails Coverage Results" MODIFIED="1543233730669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="vpsmanager-rails" />
     <SUITE FILE_PATH="coverage/vpsmanager_rails@instances_controller.rcov" NAME="instance_controller Coverage Results" MODIFIED="1542374951856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/controllers" MODULE_NAME="vpsmanager-rails" />
     <SUITE FILE_PATH="coverage/vpsmanager_rails@Run_test__MyTest___vpsmanager_rails.rcov" NAME="Run test 'MyTest': vpsmanager-rails Coverage Results" MODIFIED="1542285346730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="vpsmanager-rails" />
-    <SUITE FILE_PATH="coverage/vpsmanager_rails@Development__vpsmanager_rails.rcov" NAME="Development: vpsmanager-rails Coverage Results" MODIFIED="1542324711965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="vpsmanager-rails" />
+    <SUITE FILE_PATH="coverage/vpsmanager_rails@Development__vpsmanager_rails.rcov" NAME="Development: vpsmanager-rails Coverage Results" MODIFIED="1543233781482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="vpsmanager-rails" />
     <SUITE FILE_PATH="coverage/vpsmanager_rails@All_specs_in_test__vpsmanager_rails.rcov" NAME="All specs in test: vpsmanager-rails Coverage Results" MODIFIED="1542627840636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="vpsmanager-rails" />
     <SUITE FILE_PATH="coverage/vpsmanager_rails@Run_test__vps_spec___vpsmanager_rails.rcov" NAME="Run test 'vps_spec': vpsmanager-rails Coverage Results" MODIFIED="1542273794736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="vpsmanager-rails" />
   </component>
@@ -51,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/views/instances_new.html.erb_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+            <state relative-caret-position="135">
+              <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -69,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/instances/new.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+            <state relative-caret-position="30">
+              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -160,8 +158,8 @@
         <option value="$PROJECT_DIR$/spec/models/instance_spec.rb" />
         <option value="$PROJECT_DIR$/.rspec" />
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
-        <option value="$PROJECT_DIR$/app/views/instances/new.erb" />
         <option value="$PROJECT_DIR$/spec/views/instances_new.html.erb_spec.rb" />
+        <option value="$PROJECT_DIR$/app/views/instances/new.erb" />
       </list>
     </option>
   </component>
@@ -556,9 +554,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'instances_spec': vpsmanager-rails" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.All tests in spec: vpsmanager-rails" />
         <item itemvalue="RSpec.All specs in test: vpsmanager-rails" />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'instances_spec': vpsmanager-rails" />
         <item itemvalue="Ruby.instances_controller" />
       </list>
     </recent_temporary>
@@ -586,7 +584,7 @@
       <workItem from="1543036149502" duration="107000" />
       <workItem from="1543102973987" duration="11707000" />
       <workItem from="1543190942652" duration="910000" />
-      <workItem from="1543207337697" duration="3636000" />
+      <workItem from="1543207337697" duration="4415000" />
     </task>
     <task id="LOCAL-00001" summary="Initialise repo and created homepage for vps.">
       <created>1542289789937</created>
@@ -637,43 +635,57 @@
       <option name="project" value="LOCAL" />
       <updated>1543132464783</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added form to new instance page.">
+      <created>1543233379022</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1543233379022</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added submit button for new form.">
+      <created>1543233817345</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1543233817345</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="spec__vpsmanager-rails - 2018.11.26 at 19h 48m 33s.xml">
+    <history-entry file="spec__vpsmanager-rails - 2018.11.26 at 20h 00m 58s.xml">
       <configuration name="spec: vpsmanager-rails" configurationId="RakeRunConfigurationType" />
     </history-entry>
-    <history-entry file="spec__vpsmanager-rails - 2018.11.26 at 19h 48m 50s.xml">
+    <history-entry file="spec__vpsmanager-rails - 2018.11.26 at 20h 01m 21s.xml">
       <configuration name="spec: vpsmanager-rails" configurationId="RakeRunConfigurationType" />
     </history-entry>
-    <history-entry file="spec__vpsmanager-rails - 2018.11.26 at 19h 48m 58s.xml">
+    <history-entry file="Run_test_'instances_spec'__vpsmanager-rails - 2018.11.26 at 20h 02m 11s.xml">
+      <configuration name="Run test 'instances_spec': vpsmanager-rails" configurationId="TestUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="spec__vpsmanager-rails - 2018.11.26 at 20h 03m 11s.xml">
       <configuration name="spec: vpsmanager-rails" configurationId="RakeRunConfigurationType" />
     </history-entry>
-    <history-entry file="spec__vpsmanager-rails - 2018.11.26 at 19h 49m 19s.xml">
+    <history-entry file="spec__vpsmanager-rails - 2018.11.26 at 20h 03m 27s.xml">
       <configuration name="spec: vpsmanager-rails" configurationId="RakeRunConfigurationType" />
     </history-entry>
-    <history-entry file="spec__vpsmanager-rails - 2018.11.26 at 19h 49m 48s.xml">
+    <history-entry file="spec__vpsmanager-rails - 2018.11.26 at 20h 05m 28s.xml">
       <configuration name="spec: vpsmanager-rails" configurationId="RakeRunConfigurationType" />
     </history-entry>
-    <history-entry file="spec__vpsmanager-rails - 2018.11.26 at 19h 50m 59s.xml">
+    <history-entry file="spec__vpsmanager-rails - 2018.11.26 at 20h 05m 54s.xml">
       <configuration name="spec: vpsmanager-rails" configurationId="RakeRunConfigurationType" />
     </history-entry>
-    <history-entry file="spec__vpsmanager-rails - 2018.11.26 at 19h 51m 06s.xml">
+    <history-entry file="spec__vpsmanager-rails - 2018.11.26 at 20h 06m 09s.xml">
       <configuration name="spec: vpsmanager-rails" configurationId="RakeRunConfigurationType" />
     </history-entry>
-    <history-entry file="spec__vpsmanager-rails - 2018.11.26 at 19h 51m 50s.xml">
+    <history-entry file="spec__vpsmanager-rails - 2018.11.26 at 20h 06m 29s.xml">
       <configuration name="spec: vpsmanager-rails" configurationId="RakeRunConfigurationType" />
     </history-entry>
-    <history-entry file="spec__vpsmanager-rails - 2018.11.26 at 19h 52m 41s.xml">
-      <configuration name="spec: vpsmanager-rails" configurationId="RakeRunConfigurationType" />
-    </history-entry>
-    <history-entry file="spec__vpsmanager-rails - 2018.11.26 at 19h 53m 42s.xml">
+    <history-entry file="spec__vpsmanager-rails - 2018.11.26 at 20h 06m 47s.xml">
       <configuration name="spec: vpsmanager-rails" configurationId="RakeRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44683000" />
+    <option name="totallyTimeSpent" value="45462000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
@@ -733,7 +745,9 @@
     <MESSAGE value="Added populating of Instances index template." />
     <MESSAGE value="Added test for multiple instance items" />
     <MESSAGE value="Modified instance view to handle single and multiple items." />
-    <option name="LAST_COMMIT_MESSAGE" value="Modified instance view to handle single and multiple items." />
+    <MESSAGE value="Added form to new instance page." />
+    <MESSAGE value="Added submit button for new form." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added submit button for new form." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -872,6 +886,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.5.3/gems/capybara-3.11.1/lib/capybara/node/matchers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="735" selection-start-line="735" selection-end-line="735" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spec/views/instances.html.erb_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -879,17 +900,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/instances/new.erb">
+    <entry file="file://$PROJECT_DIR$/spec/views/instances_new.html.erb_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        <state relative-caret-position="135">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/views/instances_new.html.erb_spec.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/instances/new.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+        <state relative-caret-position="30">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
         </state>
       </provider>
     </entry>

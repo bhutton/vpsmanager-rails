@@ -7,7 +7,7 @@ describe 'instances/new.html.erb' do
 
     rendered.should match('Create new instance')
     rendered.should match('Name')
-    rendered.should have_selector('form')
+    rendered.should have_selector("form[name=instance][method='POST']")
     rendered.should have_field("name", :type => 'text')
     rendered.should have_field("description", :type => 'text')
     rendered.should have_selector("input[type=submit][value='Submit']")
