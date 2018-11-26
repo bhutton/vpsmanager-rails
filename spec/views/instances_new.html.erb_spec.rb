@@ -11,6 +11,11 @@ describe 'instances/new.html.erb' do
     rendered.should have_field("name", :type => 'text')
     rendered.should have_field("description", :type => 'text')
     rendered.should have_selector("input[type=submit][value='Submit']")
+  end
 
+  it 'should submit new form' do
+    render
+
+    rendered.should submit_tag
   end
 end
