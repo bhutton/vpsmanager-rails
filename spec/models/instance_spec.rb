@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe Instance, type: :model do
-  it "in valid with valid attributes" do
+  it "is valid with valid attributes" do
     expect(Instance.new(name: anything)).to be_valid
   end
 
