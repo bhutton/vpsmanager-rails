@@ -14,10 +14,4 @@ describe 'instances/new.html.erb' do
     rendered.should have_selector("input[type=submit][value='Create Instance']")
   end
 
-  it 'should submit new form' do
-    assign(:instances, Instance.new(name: 'Test1'))
-    render
-
-    rendered.should have_selector("input[type=submit][value='Create Instance']")
-  end
 end
