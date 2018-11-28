@@ -17,9 +17,11 @@ feature 'User creates an instancer' do
     visit new_instance_url
 
     fill_in 'Name', with: 'My foobar'
-    fill_in 'Description', with: 'my description'
+    fill_in 'Description', with: 'My description'
     click_button 'Create Instance'
 
     expect(page).to have_content("Instance Created")
+    expect(page).to have_content("My foobar")
+    expect(page).to have_content("My description")
   end
 end
