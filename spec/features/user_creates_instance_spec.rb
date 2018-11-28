@@ -10,6 +10,7 @@ feature 'User creates an instancer' do
     click_button 'Create Instance'
 
     expect(page).to have_content("Instance Created")
+    expect(page).to have_content("My foobar")
   end
 
   scenario 'user fills in name and subscription then clicks submit' do
