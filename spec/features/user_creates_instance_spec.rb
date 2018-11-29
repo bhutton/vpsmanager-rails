@@ -2,7 +2,7 @@
 require 'rails_helper'
 
 
-feature 'User creates an instancer' do
+feature 'User creates an instance' do
   scenario 'user fills in name then clicks submit' do
     visit new_instance_url
 
@@ -21,7 +21,9 @@ feature 'User creates an instancer' do
     click_button 'Create Instance'
 
     expect(page).to have_content("Instance Created")
+    expect(page).to have_content("Name:")
     expect(page).to have_content("My foobar")
+    expect(page).to have_content("Description:")
     expect(page).to have_content("My description")
   end
 end

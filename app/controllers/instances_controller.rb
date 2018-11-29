@@ -15,6 +15,10 @@ class InstancesController < ApplicationController
   def show
   end
 
+  # GET /instances/1/edit
+  def edit
+  end
+
   # POST /instances
   def create
     @instance = Instance.new(micropost_params)
@@ -23,6 +27,13 @@ class InstancesController < ApplicationController
       @instance.save
       format.html { redirect_to @instance, notice: 'Instance Created.'}
       # format.json { render :index, status: :created, location: @instance }
+    end
+  end
+
+  def update
+    respond_to do |format|
+      @instance.update(micropost_params)
+      format.html { redirect_to @instance, notice: 'Instance Updated'}
     end
   end
 

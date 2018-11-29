@@ -2,6 +2,21 @@
 
 <h1>Instances</h1>
 
-<% [*@instances].each do |instance| %>
-  <%= instance.name %>
-<% end %>
+<table>
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th colspan="3"></th>
+  </tr>
+  </thead>
+  <tbody>
+  <% [*@instances].each do |instance| %>
+    <tr>
+      <td><%= instance.name %></td>
+      <td><%= link_to 'Show', instance %></td>
+      <td><%= link_to 'Edit', edit_instance_url(instance) %></td>
+      <td><%= link_to 'Destroy', instance, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>

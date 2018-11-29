@@ -3,7 +3,7 @@ require 'spec_helper'
 describe 'instances/index.html.erb' do
 
   it 'should list single instance' do
-    assign(:instances, Instance.new(name: 'Test1'))
+    assign(:instances, Instance.new(id: 1, name: 'Test1'))
     render
 
     rendered.should match('Instances')
@@ -11,7 +11,7 @@ describe 'instances/index.html.erb' do
   end
 
   it 'should list instances' do
-    assign(:instances, [Instance.new(name: 'Test1'), Instance.new(name: 'Test2')])
+    assign(:instances, [Instance.new(id: 1, name: 'Test1'), Instance.new(id: 1, name: 'Test2')])
     render
 
     rendered.should match('Instances')
