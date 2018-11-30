@@ -15,7 +15,4 @@ RSpec.describe Instance, type: :model do
     expect(action).to be_valid
   end
 
-  it "can fill in form" do
-
-  end
 end

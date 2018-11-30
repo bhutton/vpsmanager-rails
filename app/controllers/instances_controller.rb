@@ -25,25 +25,32 @@ class InstancesController < ApplicationController
 
     respond_to do |format|
       @instance.save
-      format.html { redirect_to @instance, notice: 'Instance Created.'}
-      # format.json { render :index, status: :created, location: @instance }
+      format.html {redirect_to @instance, notice: 'Instance Created.'}
     end
   end
 
   def update
     respond_to do |format|
       @instance.update(micropost_params)
-      format.html { redirect_to @instance, notice: 'Instance Updated'}
+      format.html {redirect_to @instance, notice: 'Instance Updated'}
     end
   end
 
-  def set_instance
-    @instance = Instance.find(params[:id])
+  # DELETE /instances/1
+  # DELETE /instances/1.json
+  def destroy
+    @instance.destroy
   end
 
-  # Never trust parameters from the scary internet, only allow the white list through.
-  def micropost_params
-    params.require(:instance).permit(:name, :description)
-  end
+  private
+
+    def set_instance
+      @instance = Instance.find(params[:id])
+    end
+
+    # Never trust parameters from the scary internet, only allow the white list through.
+    def micropost_params
+      params.require(:instance).permit(:id, :name, :description)
+    end
 
 end
