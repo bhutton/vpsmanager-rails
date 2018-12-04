@@ -20,6 +20,8 @@ feature 'User creates an instance' do
     fill_in 'Description', with: 'My description'
     click_button 'Create Instance'
 
+    expect(page).to have_content("Back to main page")
+    expect(page).to have_content("Edit")
     expect(page).to have_content("Instance Created")
     expect(page).to have_content("Name:")
     expect(page).to have_content("My foobar")

@@ -32,14 +32,17 @@ class InstancesController < ApplicationController
   def update
     respond_to do |format|
       @instance.update(micropost_params)
-      format.html {redirect_to @instance, notice: 'Instance Updated'}
+      format.html{ redirect_to "/", notice: 'Instance Updated'}
     end
   end
 
   # DELETE /instances/1
   # DELETE /instances/1.json
   def destroy
-    @instance.destroy
+    respond_to do |format|
+      @instance.destroy
+      format.html{ redirect_to "/", notice: 'Instance Delete'}
+    end
   end
 
   private

@@ -12,6 +12,5 @@ describe 'User edits an instance' do
     click_button 'Update Instance'
 
     expect(page).to have_content("Instance Updated")
-    # expect(page).to have_content("My updated foobar")
   end
 end

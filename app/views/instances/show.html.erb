@@ -1,7 +1,6 @@
-<p id="notice"><%= notice %></p>
-
 <h1>View Instance</h1>
 
+<p id="notice"><%= notice %></p>
 <p>
   <strong>Name:</strong>
   <%= @instance.name %>
@@ -11,5 +10,5 @@
   <%= @instance.description %>
 </p>
 
-<!--<%#= link_to 'Edit', edit_account_path(@) %> |-->
-<%#= link_to 'Back', accounts_path %>
+<%= link_to 'Back to main page', instances_path %> |
+<%= link_to 'Edit', edit_instance_path(@instance) %>

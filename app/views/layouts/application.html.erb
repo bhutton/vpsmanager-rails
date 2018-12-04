@@ -16,20 +16,23 @@
       border: .2rem solid #f7f7f9;
       margin-bottom: 3em;
     }
+
     form {
       margin-bottom: 1.5em;
     }
+
     .CodeMirror {
       border: 1px solid #eee;
       height: auto;
     }
+
     .rails-bootstrap-forms-datetime-select select {
       display: inline-block;
       width: auto;
     }
   </style>
 
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 
   <title>VPS Manager</title>
@@ -39,7 +42,16 @@
 
 <body>
 <div class="container">
-  <%= yield %>
+
+  <div class="row">
+    <div id="sidebar" class="col-xs-3">
+      <h1>Controls</h1>
+      <%= link_to 'Instances', instances_path %>
+    </div>
+    <div id="content" class="col-xs-9">
+      <%= yield %>
+    </div>
+  </div>
 </div>
 
 <!-- Optional JavaScript-->
@@ -53,14 +65,14 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.33.0/mode/xml/xml.min.js"></script>
 
 <script type="text/javascript">
-    $(document).on("click", "button.toggle", function(){
+    $(document).on("click", "button.toggle", function () {
         var example = $(this).parent(".example");
         $(this).hide();
         $(".code", example).show()
         CodeMirror.fromTextArea($("textarea.codemirror", example)[0], {
-            mode:           "htmlmixed",
-            tabSize:        2,
-            lineNumbers:    true,
+            mode: "htmlmixed",
+            tabSize: 2,
+            lineNumbers: true,
             viewportMargin: Infinity
         })
     });
