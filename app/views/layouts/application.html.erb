@@ -30,6 +30,49 @@
       display: inline-block;
       width: auto;
     }
+
+    .header {
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .05), inset 0 -1px 0 rgba(0, 0, 0, .1);
+    }
+
+    .sidebar {
+      border-right: 1px solid rgba(0, 0, 0, .1);
+      height: calc(100vh - 4rem);
+    }
+
+    .navbar {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+
+    .main {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      padding-left: 1em;
+      padding-right: 1em;
+      width: 75%;
+    }
+
+    .bd-toc-link {
+      display: block;
+      padding: .25rem 1.5rem;
+      font-weight: 500;
+      color: rgba(0, 0, 0, .65);
+    }
+
+    .logo {
+      padding-top: 20px;
+      font-size: 25px;
+    }
+
+    .table-bordered td {
+      border: 0px !important;
+    }
+
+    .table-bordered tr {
+      border: 1px solid #dee2e6 !important;
+    }
+
   </style>
 
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -41,14 +84,21 @@
 </head>
 
 <body>
-<div class="container">
+<!--<header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar header">-->
+<!--  <h1>VPS Manager</h1>-->
+<!--</header>-->
 
+<div id="main-container" class="container-fluid">
   <div class="row">
-    <div id="sidebar" class="col-xs-3">
-      <h1>Controls</h1>
-      <%= link_to 'Instances', instances_path %>
+    <div id="sidebar" class="col-12 col-md-3 col-xl-2 sidebar">
+      <h1 class="logo">VPS Manager</h1>
+      <nav id="sidebar" class="navbar">
+        <ul class="list-unstyled components">
+          <li class="bd-toc-link"><%= link_to 'Instances', instances_path %></li>
+        </ul>
+      </nav>
     </div>
-    <div id="content" class="col-xs-9">
+    <div id="content" class="col-xs-9 main">
       <%= yield %>
     </div>
   </div>

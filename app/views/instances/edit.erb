@@ -1,7 +1,14 @@
-<h1>Edit Instance</h1>
+<!--<h1>Edit Instance</h1>-->
 <p id="notice"><%= notice %></p>
 
-<%= render 'form', instance: @instance %>
+<%#= render 'form', instance: @instance %>
 
-<%= link_to 'Back to main page', instances_path %> |
-<%= link_to 'View', @instance %>
+<!--<%#= link_to 'Back to main page', instances_path %> |-->
+<%#= link_to 'View', @instance %>
+
+
+
+<%= bootstrap_form_for(@instance, layout: :horizontal) do |f| %>
+  <%= f.text_field :name, label: "Name" %>
+  <%= f.submit "Update Instance" %>
+<% end %>
