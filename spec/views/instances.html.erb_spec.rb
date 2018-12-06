@@ -6,7 +6,6 @@ describe 'instances/index.html.erb' do
     assign(:instances, Instance.new(id: 1, name: 'Test1'))
     render
 
-    rendered.should match('Instances')
     rendered.should match('Test1')
   end
 
@@ -14,7 +13,6 @@ describe 'instances/index.html.erb' do
     assign(:instances, [Instance.new(id: 1, name: 'Test1'), Instance.new(id: 1, name: 'Test2')])
     render
 
-    rendered.should match('Instances')
     rendered.should match('Test1')
     rendered.should match('Test2')
   end
