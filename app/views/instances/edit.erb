@@ -1,4 +1,5 @@
 <%= bootstrap_form_for(@instance, layout: :horizontal) do |f| %>
   <%= f.text_field :name, label: "Name" %>
+  <%= f.text_field :description, label: "Description" %>
   <%= f.submit "Update Instance" %>
 <% end %>

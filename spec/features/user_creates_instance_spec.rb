@@ -1,4 +1,3 @@
-# spec/features/user_creates_instance_spec.rb
 require 'rails_helper'
 
 
